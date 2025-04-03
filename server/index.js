@@ -40,9 +40,10 @@ app.use(
     )
   );
   
-  app.get("/", (req, res) => {
-    console.log("hi");
-  });
+  app.get("/", (req, res) =>{
+  res.json({
+   port:"Server is running on "+PORT
+});
 
   app.use("/api/user",userRouter)
 
