@@ -1,0 +1,163 @@
+<div class="owl-stage" style="transform: translate3d(-6468px, 0px, 0px); transition: all 0.25s ease 0s; width: 9240px;"><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>Easy process for registration, impressive payoff for our feedback</h5>
+    
+    <h6>Oscar (United States)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>I really enjoy taking surveys through Turn2opinion. I feel they offer great promotions and reward their users very well. They also have an amazing customer service with timely responses and great follow through. Thank you!</h5>
+    
+    <h6>Gaera (United States)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>I've been using turn2opinion for around 4 or 5 years now, and not once in those years have I had a bad experience. Plenty of different survey engines to work from, and if you don't want to do surveys then you're free to do offers and play mobile games.</h5>
+    
+    <h6>Gavin (United States)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>If you like taking surveys this has to be the site for you. There's always plenty of surveys and the money soon mounts up. You can cash out with as little as a $2 via paypal which is far better than sites that make you hang on until you've hit $20+.</h5>
+    
+    <h6>Geetika (India)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>Whoa, I was so excited when I checked my mail today! My $12 credit reedeem at my paypal account so quickly! Thanks so much, turn2opinion.</h5>
+    
+    <h6>Wei (China)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>Earn money is never been so easy before, It's very good to share my opinion and get excellent rewards point. I'm so happy to earn money from Frequent Reward..</h5>
+    
+    <h6>Praveen Mehta (India)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>Quick redemption. Cheers</h5>
+    
+    <h6>Smith (United States)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>Amazing website and one of Best surveys website</h5>
+    
+    <h6>Amanda (France)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>The clear design and technical functionality of the surveys are excellent! Very impressive function to explore more surveys.</h5>
+    
+    <h6>Eadfrith (United Kingdom)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>That's nice website give extra money for interesting services</h5>
+    
+    <h6>Haden (Germany)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>Easy process for registration, impressive payoff for our feedback</h5>
+    
+    <h6>Oscar (United States)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>I really enjoy taking surveys through Turn2opinion. I feel they offer great promotions and reward their users very well. They also have an amazing customer service with timely responses and great follow through. Thank you!</h5>
+    
+    <h6>Gaera (United States)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>I've been using turn2opinion for around 4 or 5 years now, and not once in those years have I had a bad experience. Plenty of different survey engines to work from, and if you don't want to do surveys then you're free to do offers and play mobile games.</h5>
+    
+    <h6>Gavin (United States)</h6>
+</div></div><div class="owl-item" style="width: 462px;"><div class="item">
+    <h5>If you like taking surveys this has to be the site for you. There's always plenty of surveys and the money soon mounts up. You can cash out with as little as a $2 via paypal which is far better than sites that make you hang on until you've hit $20+.</h5>
+    
+    <h6>Geetika (India)</h6>
+</div></div><div class="owl-item active" style="width: 462px;"><div class="item">
+    <h5>Whoa, I was so excited when I checked my mail today! My $12 credit reedeem at my paypal account so quickly! Thanks so much, turn2opinion.</h5>
+    
+    <h6>Wei (China)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>Earn money is never been so easy before, It's very good to share my opinion and get excellent rewards point. I'm so happy to earn money from Frequent Reward..</h5>
+    
+    <h6>Praveen Mehta (India)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>Quick redemption. Cheers</h5>
+    
+    <h6>Smith (United States)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>Amazing website and one of Best surveys website</h5>
+    
+    <h6>Amanda (France)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>The clear design and technical functionality of the surveys are excellent! Very impressive function to explore more surveys.</h5>
+    
+    <h6>Eadfrith (United Kingdom)</h6>
+</div></div><div class="owl-item cloned" style="width: 462px;"><div class="item">
+    <h5>That's nice website give extra money for interesting services</h5>
+    
+    <h6>Haden (Germany)</h6>
+</div></div></div>
+
+
+
+import React, { useRef, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+export default function SimpleSlider() {
+  const [isPaused, setIsPaused] = useState(false);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: !isPaused, // Dynamically pause/resume autoplay
+    autoplaySpeed: 5000, // 2 seconds delay between slides
+  };
+
+  const handleMouseDown = () => {
+    console.log("Mouse down: Pausing autoplay");
+    setIsPaused(true);
+  };
+
+  const handleMouseUp = () => {
+    console.log("Mouse up: Resuming autoplay");
+    setIsPaused(false);
+  };
+
+  // Pause autoplay for touch interactions
+  const handleTouchMove = () => {
+    console.log("Mouse down: Pausing autoplay");
+    setIsPaused(true);
+  };
+
+  // Resume autoplay for touch interactions
+  const handleTouchEnd = () => {
+    console.log("Touch end: Resuming autoplay");
+    setIsPaused(false);
+  };
+
+  const slideData = [
+    {
+      title: "We value your feedback",
+      subtitle: "Your opinion gets rewarded",
+    },
+    {
+      title: "Make fast and easy money with us",
+      subtitle: "Simple way to generate more cash rewards",
+    },
+    {
+      title: "Make fast and easy money with us",
+      subtitle: "Simple way to generate more cash rewards",
+    },
+  ];
+
+  return (
+    <div className="w-full h-full bg-amber-400">
+      <div className="bg-blue-400 ">
+        <Slider
+          {...settings}
+          onMouseDown={handleMouseDown} // For mouse interactions
+          onMouseUp={handleMouseUp}
+          onTouchMove={handleTouchMove} // Track the swipe movement
+          onTouchEnd={handleTouchEnd} // Detect the end of a swipe gesture
+          onTouchStart={handleTouchMove} // Pause on touch start
+          onTouchCancel={handleTouchEnd} // Handle interrupted touches
+        >
+            {slideData.map((slide, index) => (
+            <div key={index} className="mb-2 text-center">
+              <h3 className="text-lg">{slide.title}</h3>
+              <p className="text-sm">{slide.subtitle}</p>
+            </div>
+          ))}
+          
+        </Slider>
+      </div>
+    </div>
+  );
+}
